@@ -846,6 +846,9 @@ scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile5`, function (sprite, l
         `, SpriteKind.NPC)
     tiles.placeOnTile(scientist, tiles.getTileLocation(8, 8))
 })
+scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile53`, function (sprite, location) {
+    tiles.setCurrentTilemap(tilemap`level11`)
+})
 scene.onOverlapTile(SpriteKind.Player, assets.tile`myTile51`, function (sprite, location) {
     if (controller.A.isPressed()) {
         game.splash("We are going ", "to land in...")

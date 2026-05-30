@@ -7,7 +7,8 @@
         "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0",
         "image mapping": "github:bladebaillio/image-mapping#v0.0.1",
         "arcade-mini-menu": "github:riknoll/arcade-mini-menu#v0.1.0",
-        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3"
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "sprite-fx": "github:kohanmathers/makecodespritefx#v1.3.0"
     },
     "files": [
         "main.blocks",
